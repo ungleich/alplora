@@ -4,6 +4,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+/* ==============================
+   Page loader
+   ============================== */
+
+@import "loader.css";
+
+
+
+/* ==============================
+    Alplora Css
+   ============================== */
+
 body,
 html {
     width: 100%;
