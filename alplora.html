@@ -20,7 +20,7 @@
 
 
     <!-- Custom Fonts -->
-    <link href=<link href=<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" href="hosting/font-awesome/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -34,12 +34,9 @@
     <![endif]-->
 
     
-     </head><body data-feedly-mini="yes">alt=""&gt;   
-    <style media="screen" type="text/css">
-    .intro-header {
-        background: url("hosting/img/intro-bg.png") no-repeat center center;
-    }
-</style>
+     </head>
+
+ <body data-feedly-mini="yes">
    
 <script async src="//www.google-analytics.com/analytics.js"></script><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,11 +50,23 @@
 </script>
 
 
+<div class="page-loader">
+    <div class="loader">
+      <div class="circle circle-1"></div>
+      <div class="line line-1"></div>
+      <div class="circle circle-2"></div>
+      <div class="line line-2"></div>
+      <div class="circle circle-3"></div>
+      <div class="line line-3"></div>
+      <div class="circle circle-4"></div>
+      <div class="line line-4"></div>
+      <div class="circle circle-5"></div>
+    </div>
+</div> 
 
 
     <!-- Navigation -->
     
-
 
 <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
     <div class="container topnav">
@@ -101,34 +110,33 @@
 
     <!-- Header -->
     
+
 <a name="about"></a>
-<div class="intro-header">
-    <div class="container">
+<section class="intro-header">
+     <!-- Add images backgrounds url(url-image); -->
+     <div class="background bg-slide" style="background-image: url(hosting/img/intro-bg.png);"></div>
+     <div class="background bg-slide" style="background-image: url(hosting/img/configure.jpg);"></div>
+     <div class="background bg-slide" style="background-image: url(hosting/img/django-intro-bg.png);"></div>
+     <div class="background bg-slide" style="background-image: url(hosting/img/rails-intro-bg.png);"></div>
+     <div class="intro-message">
 
-        <div class="row">
-            <div class="col-lg-12">
+        <img class="responsive" src="hosting/img/alplora_logo_nopadding.svg">
+            <h1>Perfect fit for Swiss Alps</h1>
+            <h3>Find your herd anytime, anywhere</h3>
+            <hr class="intro-divider">
+         <!-- <ul class="list-inline intro-social-buttons">
+                <li>
+                    <a href="#how" class="btn btn-default btn-lg"><i class="#Services"></i> <span class="network-name">how it works</span></a>
+                </li>
+                <li>
+                    <a href="#own" class="btn btn-default btn-lg page-scroll"><span class="network-name">Let me start</span></a>
+                </li>
+            </ul> -->
+       </div>
 
-                <div class="intro-message">
-                <img class="responsive" src="hosting/img/alplora_logo_nopadding.svg">
-                    <h1>Perfect fit for Swiss Alps</h1>
-                    <h3>Find your herd anytime, anywhere</h3>
-                    <hr class="intro-divider">
-                 <!-- <ul class="list-inline intro-social-buttons">
-                        <li>
-                            <a href="#how" class="btn btn-default btn-lg"><i class="#Services"></i> <span class="network-name">how it works</span></a>
-                        </li>
-                        <li>
-                            <a href="#own" class="btn btn-default btn-lg page-scroll"><span class="network-name">Let me start</span></a>
-                        </li>
-                    </ul> -->
-                </div>
-            </div>
-        </div>
 
-    </div>
-    <!-- /.container -->
 
-</div>
+</section>
 <!-- /.intro-header -->
 <section id="whatis">
       <div class="container">
@@ -334,7 +342,7 @@ Alplora is just like a cattle bell, but much better.<p></p>
 	</div>
 
 	<div class="row">
-	  <div class="col-sm-10 center-block wow fadeInDown">
+	  <div class="col-sm-10 col-sm-offset-1 wow fadeInDown">
 	    <!-- start:recommendationSlider -->
 	    <div id="carousel-recommendation-ungleich" class="carousel slide ungleich ungleich-gallery ungleich-gallery-text-carousel" data-ride="carousel" data-interval="3000">
 	      <!-- Indicators -->
@@ -472,10 +480,14 @@ Alplora is just like a cattle bell, but much better.<p></p>
     <!-- Pricing -->
     <script src="hosting/js/pricing.js"></script>
 
+    <!-- Images loaded -->
+    <script type="text/javascript" src="hosting/js/imagesloaded.pkgd.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="hosting/js/bootstrap.min.js"></script>
 
+    <script src="hosting/js/main.js"></script>
+    
 
 <link rel="stylesheet" href="/static/debug_toolbar/css/print.css" type="text/css" media="print">
 <link rel="stylesheet" href="/static/debug_toolbar/css/toolbar.css" type="text/css">
@@ -859,4 +871,6 @@ Alplora is just like a cattle bell, but much better.<p></p>
 
 
 
-<div id="feedly-mini" title="feedly Mini tookit"></div></body></html>
+    <div id="feedly-mini" title="feedly Mini tookit"></div>
+    </body>
+</html>
